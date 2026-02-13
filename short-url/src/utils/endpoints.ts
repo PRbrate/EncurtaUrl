@@ -1,1 +1,1 @@
-export const NEXT_PUBLIC_API_URL = "https://localhost:32769/"
+export const NEXT_PUBLIC_API_URL = "https://shorturl-latest.onrender.com/"
