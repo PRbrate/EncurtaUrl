@@ -17,7 +17,7 @@ export default function Encurta() {
 
         setTimeout(async () => {
 
-            const response = await getUrl(url)
+            const response: any = await getUrl(url)
             if (typeof response == 'string') {
                 setShortUrl(response);
             } else {
